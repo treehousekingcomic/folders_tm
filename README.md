@@ -1,4 +1,4 @@
-# https://flamexdev.eu
+# https://flamex.dev
 The source of https://flamex.dev
 
 Love you all ❤️
