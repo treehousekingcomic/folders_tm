@@ -52,6 +52,54 @@
                 display: none;
             }
 
+            #icon_gh {
+                background-color: #fff;
+                transition: background-color 125ms ease-in-out;
+                width: 50px;
+            }
+
+            #icon_gh:hover {
+                background-color: #f05033;
+                cursor: pointer;
+            }
+
+            #icon_twitter {
+                background-color: #fff;
+                transition: background-color 125ms ease-in-out;
+                width: 50px;
+            }
+
+            #icon_twitter:hover {
+                background-color: #1da1f2;
+                cursor: pointer;
+            }
+
+            #icon_discord {
+                background-color: #fff;
+                transition: background-color 125ms ease-in-out;
+                width: 50px;
+            }
+
+            #icon_discord:hover {
+                background-color: #7289DA;
+                cursor: pointer;
+            }
+
+            #icon_twitch {
+                background-color: #fff;
+                transition: background-color 125ms ease-in-out;
+                width: 50px;
+            }
+
+            #icon_twitch:hover {
+                background-color: #5a3e85;
+                cursor: pointer;
+            }
+
+            #socials center img {
+                display: inline-block;
+            }
+
             @media only screen and (max-width: 600px) {
                 #list {
                     grid-gap: 30px;
@@ -117,8 +165,13 @@
                 </p>
             </div>
         </div>
-        <center>
-            <img src="" alt="">
-        </center>
+        <div class="m-10" id="socials">
+            <center>
+                <img src="/image/icon_github.png" class="md:m-5" id="icon_gh" onclick="window.open('https://github.com/flamexdev')"> 
+                <img src="/image/icon_twitter.png" class="md:m-5" id="icon_twitter" onclick="window.open('https://twitter.com/Flamexdev')"> 
+                <img src="/image/icon_discord.png" class="md:m-5" id="icon_discord" onclick="window.open('https://discord.com/users/681424352599736327')"> 
+                <img src="/image/icon_twitch.png" class="md:m-5" id="icon_twitch" onclick="window.open('https://twitch.tv/flamexdev')"> 
+            </center>
+        </div>
     </body>
 </html>
