@@ -12,7 +12,7 @@
 
 
 ## A simpler variant
-1. Go to [Morris's reposatory](https://github.com/MorrisSeemann/Website).
+1. Go to [Morris's repository](https://github.com/MorrisSeemann/Website).
 2. Continue reading the [ReadMe.md](https://github.com/MorrisSeemann/Website/blob/main/ReadMe.md) there.
 
 ## Help
